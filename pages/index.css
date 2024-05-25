@@ -64,21 +64,23 @@
     z-index: 1;
   }
 
-  .header__description {
-    margin: 28px 0 0 80px;
-    max-width: 683px;
-    font-family: "Noto Serif", 'Times New Roman', serif;
-    font-size: 16px;
-    line-height: 30px;
-  }
-
   .header__span-accent {
     font-family: "Noto Serif", 'Times New Roman', serif;
+    font-weight: normal;
     font-style: italic;
     font-size: 60px;
     line-height: 72px;
     color: #2F80ED;
     display: block;
+  }
+
+  .header__description {
+    margin: 28px 0 0 80px;
+    max-width: 683px;
+    font-family: "Noto Serif", 'Times New Roman', serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
   }
 
   .header__image {
@@ -122,6 +124,7 @@
     padding: 0;
     max-width: 438px;
     font-family: "Noto Serif", 'Times New Roman', serif;
+    font-weight: normal;
     font-size: 20px;
     line-height: 30px;
     margin: 24px 0 0 80px;
