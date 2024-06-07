@@ -246,7 +246,7 @@
   line-height: 20px;
   transition-property: opacity;
   transition-duration: 0.4s;
-  transition-duration: linear;
+  transition-timing-function: linear;
   transition-delay: 0.2s;
 }
 
