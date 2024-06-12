@@ -1,5 +1,4 @@
 .header {
-  padding: 30px 80px 40px;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -11,6 +10,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -55,7 +55,7 @@
 .header__footer {
   display: flex;
   justify-content: space-between;
-  margin-top: auto;
+  margin: auto 80px 40px;
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
@@ -64,4 +64,6 @@
 
 .header__paragraph {
   margin: 0;
+  display: flex;
+  align-items: flex-end;
 }

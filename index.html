@@ -66,9 +66,11 @@
             <p class="header__paragraph">Monday-Friday (10:00 - 19:00)</p>
             <p class="header__paragraph">Saturday-Sunday (11:00 - 18:00)</p>
           </div>
+          <!-- <div> -->
           <p class="header__paragraph">
             200 Success Avenue, The Town of Triple Peaks
           </p>
+          <!-- </div> -->
         </div>
       </header>
       <main class="content">
@@ -118,6 +120,7 @@
                   class="form__input"
                   placeholder="Name Surname"
                   id="name"
+                  required
                 />
               </label>
               <label for="number" class="form__label"
@@ -127,6 +130,7 @@
                   class="form__input"
                   placeholder="1-8"
                   id="number"
+                  required
                 />
               </label>
               <label for="datetime" class="form__label"
@@ -135,6 +139,7 @@
                   type="datetime-local"
                   class="form__input"
                   id="datetime"
+                  required
                 />
               </label>
               <label for="email" class="form__label"
@@ -144,12 +149,18 @@
                   class="form__input"
                   placeholder="email@email.com"
                   id="email"
+                  required
                 />
               </label>
             </fieldset>
             <button class="form__button">Book a table</button>
             <label for="checkbox" class="form__label form__label_type_checkbox">
-              <input type="checkbox" class="form__check" id="checkbox" />
+              <input
+                type="checkbox"
+                class="form__check"
+                id="checkbox"
+                required
+              />
               I agree with terms of use
             </label>
           </form>
@@ -244,37 +255,41 @@
             </p>
           </div>
           <div class="about__circle"></div>
-          <div class="about__circle_animation_blurred"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
       <footer class="footer">
-        <img
-          src="./images/logo_coffeeshop_light.svg"
-          alt="Coffeeshop logo"
-          class="footer__logo"
-        />
         <div class="footer__content">
-          <h3 class="footer__social-heading">Social Media</h3>
-          <ul class="footer__list">
-            <li class="footer__list-item">
-              <a href="#" class="footer__social-link">
-                <img
-                  class="footer__social-icon"
-                  src="./images/facebook_white.svg"
-                  alt="Facebook Logo"
-                />Facebook</a
-              >
-            </li>
-            <li class="footer__list-item">
-              <a href="#" class="footer__social-link">
-                <img
-                  class="footer__social-icon"
-                  src="./images/instagram_white.svg"
-                  alt="Instagram Logo"
-                />Instagram</a
-              >
-            </li>
-          </ul>
+          <div>
+            <img
+              src="./images/logo_coffeeshop_light.svg"
+              alt="Coffeeshop logo"
+              class="footer__logo"
+            />
+          </div>
+          <div>
+            <h3 class="footer__social-heading">Social Media</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/facebook_white.svg"
+                    alt="Facebook Logo"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/instagram_white.svg"
+                    alt="Instagram Logo"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
         <p class="footer__copyright">&copy; 2024 Ovinson Lugo</p>
       </footer>
